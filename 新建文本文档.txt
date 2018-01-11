@@ -1,0 +1,26 @@
+git config --global user.name sologeon
+
+git config --global user.email baokai_zhang@hotmail.com
+
+
+mkdir learngit
+cd learngit
+pwd
+
+git init
+git add readme.txt
+git commit -m "first submit"
+git add readme.txt
+git commit -m "second submit"
+
+git log
+git log --pretty=oneline
+
+
+退回到某一版本
+git reset ...
+
+
+记录你的每一次命令
+git reflog
+
