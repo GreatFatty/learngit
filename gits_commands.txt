@@ -1,0 +1,59 @@
+https://help.github.com/articles/set-up-git/
+
+git config --global user.name sologeon
+
+git config --global user.email baokai_zhang@hotmail.com
+
+
+mkdir learngit
+cd learngit
+pwd
+
+git init
+git add readme.txt
+git commit -m "first submit"
+git add readme.txt
+git commit -m "second submit"
+
+git log
+git log --pretty=oneline
+
+
+退回到某一版本
+git reset ...
+
+
+记录你的每一次命令
+git reflog
+
+cat .git/config
+
+git push origin master --force
+
+
+
+
+假设本地已经提交代码 git commit -m "本次commit修改的内容"
+git push origin branchName //push到远程分支
+
+To ***! [rejected] master -> master (fetch first)
+error: failed to push some refs to '***'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+git reset *** //回退到某次commit并且保留本地代码的修改，***为该commit的hashCode
+git stash //暂存本地代码的修改
+git pull origin branchName //拉取远程分支代码
+git stash pop //应用暂存本地代码的修改
+如果有冲突的话解决冲突后可以按正常流程提交
+
+
+git clone git@github.com:michaelliao/gitskills.git
+
+
+
+删除
+git rm ***
