@@ -58,4 +58,5 @@ doc_name = r'previous.release-1.6.0-rc3 - 副本.zip'
 text = 'Hi!\nHow are you?\nHere is the link you wanted:\nhttp://www.baidu.com'
 title = 'How are you'
 
+'''这是一个自动发送邮件的的函数'''
 automail(to_addrs, cc_addrs, title, text, doc_path, doc_name, server, username, password)
