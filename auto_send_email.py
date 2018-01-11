@@ -60,3 +60,10 @@ title = 'How are you'
 
 '''这是一个自动发送邮件的的函数'''
 automail(to_addrs, cc_addrs, title, text, doc_path, doc_name, server, username, password)
+
+
+我还是要添加一些内容的
+我还是要添加一些内容的
+我还是要添加一些内容的
+我还是要添加一些内容的
+我还是要添加一些内容的
